@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>In-browser Markdown Editor</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="document-controls">
+            <input type="text" id="document-name" placeholder="Enter document name..." />
+            <button id="save"><ion-icon name="save-outline"></ion-icon> Save</button>
+            <select id="load-document">
+                <option value="">Load a saved document</option>
+            </select>
+            <button id="delete-document"><ion-icon name="trash-outline"></ion-icon> Delete</button>
+        </div>
+
+        <!-- Editor Section -->
+        <div class="editor">
+            <h2>Markdown Editor</h2>
+            <textarea 
+                id="editor" 
+                placeholder="Enter markdown here..." 
+                aria-label="Markdown Editor" 
+            ></textarea>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="preview">
+            <div class="preview-header">
+                <button class="preview-button">
+                    <ion-icon name="eye-outline"></ion-icon> Preview
+                </button>
+            </div>
+            <div id="preview-content"></div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+    <script src="js/markd.min.js"></script>
+</body>
+</html>
