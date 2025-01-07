@@ -5,5 +5,5 @@ This repository contains the front-end codebase. It is built using modern web te
 
 ### Projects 
 
-1. [Login/Signup Form](#login_singup_form)
-2. [Social Links Profile](#Social_links_profile)
+1. [Login/Signup Form](./login_singup_form)
+2. [Social Links Profile](./Social_links_profile)
