@@ -5,6 +5,7 @@ This repository contains the front-end codebase. It is built using modern web te
 
 ### Projects 
 
-1. [Login/Signup Form](./login_singup_form)
-2. [Social Links Profile](./Social_links_profile)
-3. [In-browser markdown editor](./In-browser_markdow_editor)
+1. [Login/Signup Form](./login_singup_form) => [Preview](https://osamarab3.github.io/Front-end/login_singup_form/)
+2. [Social Links Profile](./Social_links_profile) => [Preview](https://osamarab3.github.io/Front-end/Social_links_profile/)
+3. [In-browser markdown editor](./In-browser_markdow_editor) => [Preview](https://osamarab3.github.io/Front-end/In-browser_markdow_editor/)
+
